@@ -27,7 +27,8 @@ html {
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+    font-family: "Playwrite CU Guides", cursive;
+
   color: var(--text);
   background: #fff;
   overflow-x: hidden;
@@ -117,14 +118,16 @@ textarea {
 
   overflow: hidden;
   border-radius: 12px;
+  
 }
 
 .brand img {
   width: 150%;
   height: 150%;
 
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  
 }
 
 
@@ -1732,23 +1735,32 @@ textarea {
 /* FOOTER LOGO */
 
 .footer-logo {
-  width: 180px;
-  height: 78px;
+  height:80px;
+  width:150px;
+  object-fit: contain;
 
-  background: white;
+  background:transparent !important;
+  border:none;
 
-  border-radius: 9px;
 
-  overflow: hidden;
+  border-radius:0 !important;
+  margin: 0;
+
+  box-shadow: none!important;
+
+  padding:0!important;
 
   margin-bottom: 18px;
 }
 
 .footer-logo img {
-  width: 100%;
-  height: 100%;
+  width: 150px;
+  height: 80px;
+  max-width:150px;
+  max-height:80px;
 
-  object-fit: cover;
+
+  object-fit: contain;
 }
 
 
